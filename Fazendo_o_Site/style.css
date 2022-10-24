@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(/images/fundo5.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main{
+    height: auto;
+    width: 100%;
+    margin: 1px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu li{
+    background-color: rgba(255, 0, 0, 0.486);
+    border: black solid 2px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+}
+.logo{
+    margin-top: 30px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+nav ul li{
+    font-size: 20px;
+    list-style-type: none;
+    display: inline;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+.texto{
+    color: rgba(255, 255, 255, 0.884);
+    font-size: 20px;
+}
+.active{
+    color: white;
+}
+#rodape{
+    background-color: #161616;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    line-height: 40px;
+    color: #5f5e5e;
+    font-size: 12px;
+    margin-top: 30px;
+}
+.mapas{
+    width: 300px;
+}
+.container{
+    display: flex;
+}
